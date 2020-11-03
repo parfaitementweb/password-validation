@@ -1,5 +1,9 @@
 # Laravel Password Validation Rules
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/parfaitementweb/password-validation.svg?style=flat-square)](https://packagist.org/packages/parfaitementweb/password-validation)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/parfaitementweb/password-validation/run-tests?label=tests)
+
 This package provides additional validation rules to empower strong password usage in Laravel applications.
 
 ## Installation
