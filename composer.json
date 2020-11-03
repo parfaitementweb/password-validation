@@ -1,0 +1,44 @@
+{
+    "name": "parfaitementweb/password-validation",
+    "description": "Additional validation rules to empower strong password usage in Laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "password", "passwords", "strength", "strong", "security", "validation"],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "orchestra/testbench": "^4.5|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parfaitementweb\\PasswordValidation\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Parfaitementweb\\PasswordValidation\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parfaitementweb\\PasswordValidation\\PasswordValidationServiceProvider"
+            ]
+        }
+    }
+}
